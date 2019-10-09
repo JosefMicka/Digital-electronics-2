@@ -14,4 +14,5 @@ void GPIO_write(volatile  uint8_t *reg_name , uint8_t  pin_num, uint8_t pin_val)
 void GPIO_toggle(volatile  uint8_t *reg_name , uint8_t  pin_num);
 
 uint8_t GPIO_read(volatile  uint8_t *reg_name , uint8_t  pin_num);
+
 #endif /*  GPIO_H_INCLUDED  */
