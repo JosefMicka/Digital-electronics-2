@@ -16,11 +16,12 @@ LIBRARY_DIR = ../library
 # existing files that match the pattern.
 SRCS := $(wildcard *.c)
 # Add or comment libraries you are using in the project
-SRCS += $(LIBRARY_DIR)/src/lcd.c
+#SRCS += $(LIBRARY_DIR)/src/lcd.c
 SRCS += $(LIBRARY_DIR)/src/uart.c
 #SRCS += $(LIBRARY_DIR)/src/twi.c
 SRCS += $(LIBRARY_DIR)/src/gpio.c
 SRCS += $(LIBRARY_DIR)/src/timer.c
+SRCS += $(LIBRARY_DIR)/src/ADC.c
 #SRCS += $(LIBRARY_DIR)/src/segment.c
 ASSRC := $(wildcard *.S)
 

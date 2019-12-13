@@ -1,5 +1,5 @@
 
-# Demo Project
+# Continuos Power measuring
 
 #### Table of Contents
 
@@ -16,7 +16,7 @@ TBD
 
 ## Hardware
 
-TBD
+Atmega328P, Measuring device.
 
 
 ## Software
