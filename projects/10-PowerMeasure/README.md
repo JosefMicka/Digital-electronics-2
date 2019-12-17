@@ -28,7 +28,7 @@ OPAMPs are TS912ID
 Input voltage:     5-15 V,
 Current:           0-2  A   
 <p align="center">
-  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/shcema.png">
+  <img  width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/shcema.png">
 </p>
 
 
@@ -78,6 +78,11 @@ If sampling period was changed while program run:
 ```
 Sampling period: XXXX
 ```
+
+File structure example
+<p align="center">
+  <img width="262" height="636%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/csvexample.jpg">
+</p>
 
 ## Test circuit
 Block diagram of Test circuit
