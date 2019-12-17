@@ -19,7 +19,7 @@ This project allows continuous power measuring using ATmega328P with measuring d
 
 Arduino UNO clone with Atmega328P, Measuring device with OPAMPs.
 
-####Measuring device:
+#### Measuring device:
 
 **Electrical charakteristics:**
 Input voltage:     5-15 V
@@ -33,7 +33,7 @@ Current:           0-2  A
 Firmware for ATmega328P was written in C language.
 ATmega328P read ADCs, then calculate voltage [mV] and current [mA] from measured values and send data via USART. Format of sended data is: "current_mA;voltage_mV\r\n"
 
-####Calculation descritpion
+#### Calculation descritpion
 Formulas for calculation was created with use of measured data. Regression equation was used to get formulas from measured data. See [UIcalibration.xlsx file](Docs/UIcalibration.xlsx)
 
 ```
@@ -64,7 +64,7 @@ File is CSV type.
 current_mA;voltage_mV
 ```
 
-At the first line is `Sampling period: XXXX`. This is also written to current place if sample rate is changed while program is runnig 
+At the first line is `Sampling period: XXXX`. This is also written to file if sample rate is changed while program is runnig 
 
 
 ## References
