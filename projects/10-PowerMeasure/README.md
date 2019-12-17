@@ -52,6 +52,7 @@ current = vadc * 201 / 100 + 8;
 
 Software for desktop app "DataReader" or "UartReader" was written in C# using .NET Framework.
 
+
 <p align="center">
   <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/uartreader.jpg">
 </p>
@@ -65,6 +66,9 @@ Software for desktop app "DataReader" or "UartReader" was written in C# using .N
 5. If you want to change sampling period, select new sampling period and click on "Change sampling period"
 6. After measuring is done click on "Close"
 7. Now, measured data are ready to use.
+
+#### Possible sampling periods: 
+2 ms, 4 ms, 16 ms, 32 ms, 256 ms, 1 s, 4 s
 
 #### File structure
 File is CSV type. 
@@ -104,7 +108,7 @@ Arduino pinout
 <p align="center">
   <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/arduinopinout.jpg">
 </p>
-NOTE: PC0 (ADC0) and PC1 (ADC1) are swapped on my Arduino UNO clone
+NOTE: PC0 (ADC0) and PC1 (ADC1) are swapped on my Arduino UNO clone.
 
 ## References
 
