@@ -25,27 +25,28 @@ Arduino UNO clone with Atmega328P, Measuring device with OPAMPs.
 Input voltage:     5-15 V
 Current:           0-2  A   
 
-![Schematic](/images/schema.png)
+![Schematic](/img/schema.png)
 
 
 ## Firmware
 
 Firmware for ATmega328P was written in C language.
-ATmega328P read ADCs, then calculate voltage [mV] and current [mA] from measured values and send data via USART. Format of sended data is: "current_mA;voltage_mV\r\n"
-
+ATmega328P read ADCs, then calculate voltage [mV] and current [mA] from measured values and send data via USART. Format of sended data is: 
+```
+"current_mA;voltage_mV\r\n"
+```
 #### Calculation descritpion
-Formulas for calculation was created with use of measured data. Regression equation was used to get formulas from measured data. See [UIcalibration.xlsx file](Docs/UIcalibration.xlsx)
+Formulas for calculation was created with use of measured data. Regression equation was used to get formulas from measured data. See [UIcalibration.xlsx file](Docs/)
 
 ```
 voltage = vadc * 1574 / 100 + 177;
 current = vadc * 201 / 100 + 8;
 ```
 
-
 ## Software
 
 Software for desktop app "DataReader" or "UartReader" was written in C# using .NET Framework.
-![UartReader](/images/uartreader.jpg)
+![UartReader](/img/uartreader.jpg)
 
 #### How to use:
 1. Click on "Find Port"
@@ -69,4 +70,4 @@ At the first line is `Sampling period: XXXX`. This is also written to file if sa
 
 ## References
 
-1. ATmega328P [Used MCU](https://www.microchip.com/wwwproducts/en/ATmega328p)
+1. [ATmega328P](https://www.microchip.com/wwwproducts/en/ATmega328p)
