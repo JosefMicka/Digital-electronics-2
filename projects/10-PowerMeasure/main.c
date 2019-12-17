@@ -5,10 +5,6 @@
  * Last update: 2019-11-30
  * Platform:    ATmega328P, 16 MHz, AVR 8-bit Toolchain 3.6.2
  * ---------------------------------------------------------------------
- * Description:
- *    
- * Note:
- *    Peter Fleury's UART library.
  */
 
 
