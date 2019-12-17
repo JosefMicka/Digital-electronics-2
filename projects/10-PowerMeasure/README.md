@@ -7,7 +7,7 @@
 2. [Hardware](#hardware)
 3. [Firmware](#firmware)
 4. [Software](#software)
-5. [Test circuit](#test circuit)
+5. [Test circuit](#testcircuit)
 6. [References](#references)
 
 
@@ -79,27 +79,6 @@ If sampling period was changed while program run:
 Sampling period: XXXX
 ```
 
-## Test circuit
-Block diagram of Test circuit
-<p align="center">
-  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/Testblok.png">
-</p>
-
-Test circuit
-<p align="center">
-  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/testcirc.jpg">
-</p>
-
-Measuring device with load and input voltage control
-<p align="center">
-  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/measuringdev.jpg">
-</p>
-
-Arduino pinout 
-<p align="center">
-  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/arduinopinout.jpg">
-</p>
-NOTE: PC0 (ADC0) and PC1 (ADC1) are swapped on my Arduino UNO clone
 
 ## References
 
