@@ -1,0 +1,9 @@
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\bin\Debug\DataReader.exe
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\bin\Debug\DataReader.pdb
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.csprojAssemblyReference.cache
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.Form1.resources
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.Properties.Resources.resources
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.csproj.GenerateResource.cache
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.csproj.CoreCompileInputs.cache
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.exe
+A:\SKOLA\3_rocnik_zim\BPC-DE2\SimonaSadlekova\Digital-electronics-3\UartReader\DataReader\obj\Debug\DataReader.pdb
