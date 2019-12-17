@@ -21,11 +21,15 @@ Arduino UNO clone with Atmega328P, Measuring device with OPAMPs.
 
 #### Measuring device:
 
-**Electrical charakteristics:**
-Input voltage:     5-15 V
-Current:           0-2  A   
+OPAMPs are TS912ID
 
-![Schematic](/img/schema.png)
+**Electrical charakteristics:**
+Input voltage:     5-15 V,
+Current:           0-2  A   
+<p align="center">
+  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/shcema.png">
+</p>
+
 
 
 ## Firmware
@@ -36,7 +40,7 @@ ATmega328P read ADCs, then calculate voltage [mV] and current [mA] from measured
 "current_mA;voltage_mV\r\n"
 ```
 #### Calculation descritpion
-Formulas for calculation was created with use of measured data. Regression equation was used to get formulas from measured data. See [UIcalibration.xlsx file](Docs/)
+Formulas for calculation was created with use of measured data. Regression equation was used to get formulas from measured data. See [UIcalibration.xlsx file](https://github.com/JosefMicka/Digital-electronics-2/tree/master/projects/10-PowerMeasure/Docs)
 
 ```
 voltage = vadc * 1574 / 100 + 177;
@@ -46,7 +50,10 @@ current = vadc * 201 / 100 + 8;
 ## Software
 
 Software for desktop app "DataReader" or "UartReader" was written in C# using .NET Framework.
-![UartReader](/img/uartreader.jpg)
+
+<p align="center">
+  <img width="100%" height="100%" src="https://github.com/JosefMicka/Digital-electronics-2/blob/master/projects/10-PowerMeasure/img/uartreader.jpg">
+</p>
 
 #### How to use:
 1. Click on "Find Port"
@@ -65,8 +72,11 @@ File is CSV type.
 current_mA;voltage_mV
 ```
 
-At the first line is `Sampling period: XXXX`. This is also written to file if sample rate is changed while program is runnig 
+If sampling period was changed while program run:
 
+```
+Sampling period: XXXX
+```
 
 ## References
 
