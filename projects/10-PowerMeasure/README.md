@@ -15,6 +15,7 @@
 
 This project allows continuous power measuring using ATmega328P with measuring device.
 
+Video: [https://youtu.be/36W9tywYzhY](https://youtu.be/36W9tywYzhY)
 
 ## Hardware
 
