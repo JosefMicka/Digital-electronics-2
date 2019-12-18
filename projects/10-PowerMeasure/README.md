@@ -50,7 +50,7 @@ current = vadc * 201 / 100 + 8;
 
 ## Software
 
-Software for desktop app "DataReader" or "UartReader" was written in C# using .NET Framework.
+GUI "DataReader" was written in C# using .NET Framework.
 
 
 <p align="center">
